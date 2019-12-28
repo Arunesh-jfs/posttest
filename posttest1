@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account</title>
+    <h1>
+        <center>
+            <font face="Verdana"> Create your Oracle Account </font face>
+        </center>
+    </h1>
+    <br>
+
+</head>
+
+<body>
+    <h3>
+        <center>
+            <font face="Verdana">Already have an oracle account?<span style="color: red;">Sign in</span> </font>
+        </center>
+    </h3>
+
+    <br>
+    <br>
+    <br>
+
+
+    <table>
+
+
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Email ID</font><span style="color: red;">*</span>:
+                </p>
+            </td>
+            <td><input type="text" name="Email" size="50"></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Create Password</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="Password" size="50">
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Retype Password</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="Re-Password" size="50">
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Country</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td>
+
+
+                <select>
+                    <option>India(IND)</option>
+                    <option>United States Of America(US)</option>
+                    <option>Australia(AUS)</option>
+                    <option>New Zeland(NZ)</option>
+                    <option>South Africa(RSA)</option>
+                </select>
+            </td>
+            <td></td>
+
+        </tr>
+
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Name</font><span style="color: red;">*</span>:
+                </p>
+            </td>
+            <td><input type="text" name="Fname" size="25" value="First Name"><input type="text" name="Lname" size="25"
+                    value="Last Name">
+            </td>
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Job Title</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="Job Title" size="50">
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+
+            <td>
+                <p align="right">
+                    <font face="Verdana">Work Phone</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="Work Phone" maxlength="10" size="50"></td>
+            <td></td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Company Name</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="Company Name" size="50"></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">Address</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="Line1" size="50">
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="text" name="Line2" size="50"></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">City</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="City" size="50"></td>
+            <td></td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">State/Province</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td>
+
+
+                <select>
+                    <option>Andra Pradesh</option>
+                    <option>Telangana</option>
+                    <option>Gujrat</option>
+                    <option>Maharashtra</option>
+                    <option>West Bengal</option>
+                </select>
+            </td>
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <p align="right">
+                    <font face="Verdana">ZIP/Postal Code</font><span style="color: red;">*</span> :
+                </p>
+            </td>
+            <td><input type="text" name="City" size="50"></td>
+            <td></td>
+        </tr>
+
+
+
+        <tr>
+            <td></td>
+            <td><i>
+                    <h5>
+                        <font face="Verdana">You may opt out of all marketing and communications: <span
+                                style="color: red;">Unsubscribe</span></font>
+                    </h5>
+                </i></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <h5>
+                    <font face="Verdana">By clicking on the "Create Account" button below, you understand and agree that
+                        the use of oracle's
+                        website is subject to the <span style="color: red;">Orcale.com Terms of use</span>. Additional
+                        details regarding Oracle's collection
+                        and use of your personal information, including information about
+                        access,retention,rectification,deletion,security,cross-border transfer and other topics, is
+                        available in the <span style="color: red;">Oracle Privacy Policy</span>
+                </h5>
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><button class="haha" style="background-color: green;" value="Create Account" class="haha">Create Account</button></td>
+        </tr>
+
+        <tr>
+            <td>   </td>
+            <td>   </td>
+        </tr>
+
+        <tr>
+            <td>   </td>
+            <td>   </td>
+        </tr>
+
+
+        <tr>
+            <td></td>
+            <td><ft face="Verdana"><span style="color: red;">Account Help|Subscriptions|Unsubscribe|Terms of Use and Privacy|Cookie Preference</span></font></td>
+        </tr>
+
+</body>
+
+</html>
