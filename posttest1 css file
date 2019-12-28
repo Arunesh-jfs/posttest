@@ -1,0 +1,7 @@
+body{
+    background-color: whitesmoke;
+}
+
+.haha{
+    background-color: green;
+}
